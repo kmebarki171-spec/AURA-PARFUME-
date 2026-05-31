@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-gold-50: #fbf7ee;
+  --color-gold-100: #f4eaaf;
+  --color-gold-200: #ead271;
+  --color-gold-300: #dec04d;
+  --color-gold-400: #d4aa33;
+  --color-gold-500: #bf921b;
+  --color-gold-600: #a47614;
+  --color-gold-700: #885d11;
+  --color-gold-800: #6f4710;
+  --color-gold-900: #5c3b10;
+  --color-gold-950: #361f06;
+}
+
+@layer base {
+  body {
+    @apply bg-neutral-950 text-neutral-200 antialiased font-sans;
+    background-image: radial-gradient(circle at 50% 0%, #151108 0%, #0a0a0a 100%);
+  }
+}
+
+/* Custom gorgeous scrollbar for luxury brand feeling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #090909;
+}
+::-webkit-scrollbar-thumb {
+  background: #bf921b;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a47614;
+}

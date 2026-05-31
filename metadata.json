@@ -1,0 +1,6 @@
+{
+  "name": "Aura Parfume",
+  "description": "An elegant, premium online boutique for original parfumes under the AURA brand, featuring a luxurious gold and black design, structured product grid, shopping cart, and prices in Algerian Dinar (DZD).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
